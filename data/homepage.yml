@@ -1,0 +1,156 @@
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Kacper."
+  subtitle: "Full-Stack Developer"
+  description: "From crafting stunning interfaces to building robust backends, I love every bit of it. Let's team up and create some digital magic! 🚀"
+  image:
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
+  imageMobile:
+    x: "img/showcase/showcase-mobile.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "#contact"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/kacper-jagie%C5%82a/"
+
+    - icon: "github"
+      URL: "https://github.com/kacperjagiela"
+
+# education
+education:
+  enable: false
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: '<p class="lead">
+    My coding journey began with the fascination of turning ideas into reality through elegant code.
+    From captivating front-end interfaces to rock-solid back-end architectures, I love crafting seamless user experiences.
+    </p>
+    <p class="lead">
+    When I&apos;m not coding, you&apos;ll find me exploring the latest tech trends, checking out the newest games or sipping coffee while brainstorming my next project.
+    Let&apos;s connect and embark on a thrilling tech adventure together! 🚀
+    </p>'
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/kacper-jagie%C5%82a/"
+  image:
+    x: "img/about/about.png"
+    _2x: "img/about/about.png"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Over 3+ years of professional experience. Crafting cutting-edge products that transform businesses and spark joy in users' lives."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/kacper-jagie%C5%82a/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "/pdf/kacper-jagiela-cv.pdf"
+
+  items:
+    - title: "Mid/Senior Full-Stack Developer"
+      company: "Code & Pepper"
+      duration: "Oct 2021 - Jun 2023"
+
+    - title: "Junior Full-Stack Developer & Full-Stack Developer"
+      company: "ShareSpace"
+      duration: "Oct 2020 - Oct 2021"
+
+    - title: "Full-Stack Working Student"
+      company: "Nokia"
+      duration: "Mar 2020 - Sep 2020"
+
+# Client & Work
+client_and_work:
+  title: "Projects"
+  enable: true
+
+  works:
+    - title: "Automated Twitch Clips"
+      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Go to GitHub page"
+        URL: "https://github.com/kacperjagiela/automated-twitch-clips"
+      image:
+        x: "img/works/automated-twitch-clips-x2.png"
+        _2x: "img/works/automated-twitch-clips-x2.png"
+      is_even: true
+
+    # - title: "Questions and Answers web application"
+    #   description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
+    #   button:
+    #     icon: "icon-arrow-right"
+    #     btnText: "Go to Github page"
+    #     URL: "#"
+    #   image:
+    #     x: "img/works/swissfintech.jpg"
+    #     _2x: "img/works/swissfintech@2x.jpg"
+    #   is_even: false
+
+# testimonials
+testimonial:
+  enable: false
+  title: "Testimonials"
+  items:
+    - name: "Daniel Jordan"
+      position: "Phonet, CEO"
+      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
+      image:
+        x: "img/testimonials/daniel-jordan.jpg"
+        _2x: "img/testimonials/daniel-jordan@2x.jpg"
+
+    - name: "Jonathan Peters"
+      position: "Textic, CEO"
+      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+      image:
+        x: "img/testimonials/jonathan-peters.jpg"
+        _2x: "img/testimonials/jonathan-peters@2x.jpg"
+
+    - name: "Antonio Willis"
+      position: "Cyberse, CEO"
+      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+      image:
+        x: "img/testimonials/antonio-willis.jpg"
+        _2x: "img/testimonials/antonio-willis@2x.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    action: "https://formkeep.com/f/13d87dcea83f"
+    method: "POST"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  phone:
+    title: "LinkedIn"
+    number: '<a href="https://www.linkedin.com/in/kacper-jagie%C5%82a">Connect with me</a>'
+  email:
+    title: "Email"
+    email: '<a href="mailto:jagielakacper80@gmail.com">jagielakacper80@gmail.com</a>'
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
