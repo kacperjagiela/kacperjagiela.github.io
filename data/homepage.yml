@@ -1,3 +1,7 @@
+# meta
+head:
+  title: "Kacper Jagieła Website"
+
 # showcase
 showcase:
   enable: true
@@ -139,10 +143,10 @@ contact:
     message: "Type Your Message Here"
   phone:
     title: "LinkedIn"
-    number: '<a href="https://www.linkedin.com/in/kacper-jagie%C5%82a">Connect with me</a>'
+    number: '<a href="https://www.linkedin.com/in/kacper-jagie%C5%82a" target="_blank">Connect with me</a>'
   email:
     title: "Email"
-    email: '<a href="mailto:jagielakacper80@gmail.com">jagielakacper80@gmail.com</a>'
+    email: '<a href="mailto:jagielakacper80@gmail.com" target="_blank">jagielakacper80@gmail.com</a>'
   button:
     icon: "icon-mail-fill"
     btnText: "Send Message"
